@@ -8,7 +8,7 @@ let vcon = vcan.getContext("2d");
 
 //実態キャンバス宣言
 let can = document.getElementById("can");//描画領域適宜
-let con = can.getContext("2d");//どう描くかを制御
+let con = can.getContext("2d");//どう描くかを制御 
 
 //仮想キャンバスサイズ宣言
 vcan.width = SCREEN_SIZE_W;
