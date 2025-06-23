@@ -67,7 +67,7 @@ function mainLoop(){
     }
 
     //
-    draw();//画像データの出力
+    draw();//画像デaータの出力
     }
     requestAnimationFrame(mainLoop);
 }
@@ -97,7 +97,7 @@ vcon.fillStyle="#FFFFFF";//プロパティcolor
 vcon.fillText("FRAME : " +FrameCount, 10, 20);//readme参照
 
 //仮想描画を実体にプロット
-con.drawImage(vcan, 0, 0, SCREEN_SIZE_W, SCREEN_SIZE_H, 0, 0, SCREEN_SIZE_W*3, SCREEN_SIZE_H*3);
+con.drawImage(vcan, 0, 0, SCREEN_SIZE_W, SCREEN_SIZE_H, 0, 0, SCREEN_SIZE_W*2, SCREEN_SIZE_H*2);
 }
 
 // キーボードが押されたとき
